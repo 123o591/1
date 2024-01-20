@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>易澜银饰</title>
+    <style>
+        /* /* 全局样式 */
+body {
+    font-family: Arial, sans-serif; /* 使用无衬线字体 */
+    color: #333; /* 深灰色文字 */
+    background-color: #f5f5f5; /* 浅灰色背景 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 导航栏样式 */
+nav {
+    background-color: #a52a2a; /* 深灰色背景 */
+    color: #fff; /* 白色文字 */
+    padding: 10px 0; /* 上下有10px的填充 */
+}
+
+nav ul {
+    list-style-type: none; /* 去掉列表前的圆点 */
+    padding: 0;
+    margin: 0;
+    display: flex; /* 使用Flex布局 */
+    justify-content: space-around; /* 项目之间的间隔都相等 */
+}
+
+nav a {
+    color: #fff; /* 白色链接文字 */
+    text-decoration: none; /* 去掉链接下划线 */
+}
+
+/* 内容区域样式 */
+#content {
+    padding: 20px; /* 内容区域有20px的填充 */
+}
+
+#content h1, #content h2 {
+    color: #455b97; /* 深灰色标题 */
+}
+
+#content p {
+    line-height: 1.6; /* 行间距是字体大小的1.6倍 */
+}
+ */
+    </style>
+</head>
+<body>
+    <!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>银饰网站</title>
+    <style>
+        /* 导航栏样式 */
+        nav {
+            background-color: #333; /* 深灰色背景 */
+            color: #fff; /* 白色文字 */
+            padding: 10px 0; /* 上下有10px的填充 */
+        }
+
+        nav ul {
+            list-style-type: none; /* 去掉列表前的圆点 */
+            padding: 0;
+            margin: 0;
+            display: flex; /* 使用Flex布局 */
+            justify-content: space-around; /* 项目之间的间隔都相等 */
+        }
+
+        nav a {
+            color: #fff; /* 白色链接文字 */
+            text-decoration: none; /* 去掉链接下划线 */
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#pureSilver">纯银饰品</a></li>
+            <li><a href="#sterlingSilver">标准银饰品</a></li>
+            <li><a href="#silverPlated">镀银饰品</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
+ --><!DOCTYPE html>
+ <html>
+ <head>
+     <title>产品图片滚动</title>
+     <style>
+         .slider {
+             width: 300px;
+             height: 200px;
+             overflow: hidden;
+             position: relative;
+         }
+         .slider img {
+             width: 100%;
+             height: 100%;
+             animation: slide 6s infinite;
+         }
+         @keyframes slide {
+             0% {opacity: 0;}
+             20% {opacity: 1;}
+             33% {opacity: 1;}
+             53% {opacity: 0;}
+             100% {opacity: 0;}
+         }
+         .slider img:nth-child(2) {
+             animation-delay: 2s;
+         }
+         .slider img:nth-child(3) {
+             animation-delay: 4s;
+         }
+     </style>
+ </head>
+ <body>
+     <div class="slider">
+         <img src="f:\WeChat Files\wxid_vzh3ujlg643y22\FileStorage\Temp\UNK.0x63090217.16f5d0791e76d6c064f4a1a7c974da51.dat" alt="Product 1">
+         <img src="f:\WeChat Files\wxid_vzh3ujlg643y22\FileStorage\Temp\UNK.0x63090217.16f5d0791e76d6c064f4a1a7c974da51.dat" alt="Product 2">
+         <img src="f:\WeChat Files\wxid_vzh3ujlg643y22\FileStorage\Temp\UNK.0x63090217.16f5d0791e76d6c064f4a1a7c974da51.dat" alt="Product 3">
+     </div>
+ </body>
+ </html>
+ 
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#category1">详情页面</a></li>
+            <!-- 在这里添加更多的导航链接 -->
+        </ul>
+    </nav>
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>登录页面</title>
+    <script>
+        function checkCredentials() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            if (username == '周卓奇' && password == '520438') {
+                alert('登录成功！');
+                //file:///F:/%E7%BD%91%E7%AB%99%E6%96%87%E4%BB%B6/1/Untitled-1.html
+            } else {
+                alert('用户名或密码错误！');
+            }
+
+            // 阻止表单提交
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <!-- 用户登录页面 -->
+    <div id="login" class="user-page">
+        <h2>用户登录</h2>
+        <form onsubmit="return checkCredentials();">
+            <label for="username">用户名：</label>
+            <input type="text" id="username" name="username">
+            <label for="password">密码：</label>
+            <input type="password" id="password" name="password">
+            <input type="submit" value="登录">
+        </form>
+    </div>
+</body>
+</html>
+
+    <!-- 易澜银饰开心 -->
+    <div id="content">
+        <!-- 银饰 -->
+        <div id="home">
+            <h1>易澜银饰</h1>
+            <p>易澜银饰的内容</p>
+        </div>
+
+        <!-- 分类1页面 -->
+        <div id="category1">
+            <h2>分类1</h2>
+            <p>这是分类1的内容。</p>
+        </div>
+
+        <!-- file:///F:/%E7%BD%91%E7%AB%99%E6%96%87%E4%BB%B6/1/Untitled-1.html -->
+    </div>
+</body>
+</html>
+
+<div class="container">
+    <header>
+        <h1>欢迎来到“易澜银饰”产品网站</h1>
+    </header>
+    <section id="products">
+        <h2>易澜银饰</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="c:\Users\小米\AppData\Local\Temp\WeChat Files\baa036ae9b810a362692d2e310e20e0.jpg" alt="产品1">
+                <h3>产品1</h3>
+                <p>这是产品1的描述。</p>
+            </div>
+            <!-- 更多产品... -->
+        </div>
+    </section>
+    <footer>
+        <p>版权所有 © 周卓奇</p>
+    </footer>
+</div>
+<script>
+    // 这里可以添加JavaScript代码
+</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>银饰网站</title>
+    <style>
+        /* 在这里添加你的CSS样式 */
+    </style>
+</head>
+<body>
+    <!-- 主页 -->
+    <div id="home">
+        <!-- 滑动的图片展示区域 -->
+        <div class="slide-container">
+            <div class="slide">
+                <img src="image1.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <!-- 产品分类 -->
+        <div id="categories">
+            <h2>产品分类</h2>
+            <ul>
+                <li><a href="#category1">分类1</a></li>
+                <li><a href="#category2">分类2</a></li>
+                <!-- 在这里添加更多的分类 -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- 产品分类页面 -->
+    <div id="category1" class="category-page">
+        <h2>分类1</h2>
+        <ul>
+            <li><a href="#product1">产品1</a></li>
+            <li><a href="#product2">产品2</a></li>
+            <!-- 在这里添加更多的产品 -->
+        </ul>
+    </div>
+
+    <!-- 产品详情页 -->
+    <div id="product1" class="product-page">
+        <h2>产品1</h2>
+        <img src="product1.jpg" alt="Product 1">
+        <p>这是产品1的描述。</p>
+        <p>价格：¥100</p>
+        <button>添加到购物车</button>
+    </div>
+
+    <!-- 购物车页面 -->
+    <div id="cart" class="cart-page">
+        <h2>购物车</h2>
+        <ul>
+            <li>产品1</li>
+            <li>产品2</li>
+            <!-- 在这里添加更多的产品 -->
+        </ul>
+        <button>结账</button>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+    <!-- 内容区域 -->
+    <div id="content">
+        <!-- 首页 -->
+        <div id="home">
+            <h1>欢迎来到我的银饰网站！</h1>
+            <p>这是首页的内容。</p>
+        </div>
+
+        <!-- 纯银饰品页面 -->
+        <div id="pureSilver">
+            <h2>纯银饰品</h2>
+            <p>这是纯银饰品的内容。</p>
+        </div>
+
+        <!-- 标准银饰品页面 -->
+        <div id="sterlingSilver">
+            <h2>标准银饰品</h2>
+            <p>这是标准银饰品的内容。</p>
+        </div>
+
+        <!-- 镀银饰品页面 -->
+        <div id="silverPlated">
+            <h2>镀银饰品</h2>
+            <p>这是镀银饰品的内容。</p>
+        </div>
+    </div>
+</body>
+</html>
